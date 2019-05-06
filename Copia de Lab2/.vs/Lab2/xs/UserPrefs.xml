@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Pelora.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MenuPrincipal.cs" Line="4" Column="35" />
+      <File FileName="Assets/Scripts/Pelora.cs" Line="84" Column="1" />
+      <File FileName="Assets/Scripts/Moneda.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Manage.cs" Line="31" Column="92" />
+      <File FileName="Assets/Scripts/PauseMenu.cs" Line="54" Column="43" />
+      <File FileName="Assets/Scripts/Revivir.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/CoinCount.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Pelora.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="78fa5228-b1c1-4cf8-ab51-49b741deb8d4" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
