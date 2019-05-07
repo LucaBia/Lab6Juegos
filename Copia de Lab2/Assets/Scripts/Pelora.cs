@@ -9,7 +9,7 @@ public class Pelora : MonoBehaviour
     public float fuerza = 0;
     private Rigidbody rBody;
 
-    public Camera cam;
+    //public Camera cam = Camera.main;
     public NavMeshAgent agent;
 
     // Start is called before the first frame update
@@ -23,7 +23,7 @@ public class Pelora : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
             if(Physics.Raycast(ray, out hit))
@@ -50,6 +50,14 @@ public class Pelora : MonoBehaviour
         {
             if (Mathf.Abs(rBody.velocity.y) < 0.005f)
                 rBody.AddForce(0, fuerza, 0, ForceMode.Impulse);
+        }
+    }
+
+    void OnCollisionEnter(Collision otherObj)
+    {
+        if (otherObj.gameObject.tag == "Enemy")
+        {
+            Destroy(this.gameObject);
         }
     }
 

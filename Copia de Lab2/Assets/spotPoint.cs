@@ -22,7 +22,6 @@ public class spotPoint : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             other.gameObject.GetComponent<patrol>().objetivo = nextSpot;
-
         }
     }
 }
