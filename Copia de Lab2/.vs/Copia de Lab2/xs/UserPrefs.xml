@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{9CEE868C-A38C-9842-17F3-89850348E441}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/spotPoint.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Pelora.cs" Line="10" Column="29" />
+      <File FileName="Assets/Scripts/Manage.cs" Line="23" Column="97" />
+      <File FileName="Assets/patrol.cs" Line="24" Column="6" />
+      <File FileName="Assets/spotPoint.cs" Line="6" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Copia de Lab2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+              <Node name="spotPoint.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="78fa5228-b1c1-4cf8-ab51-49b741deb8d4" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

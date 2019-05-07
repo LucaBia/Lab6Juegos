@@ -22,15 +22,6 @@ public class Manage : MonoBehaviour
             if (player && !currPlayer)
                 currPlayer = Instantiate(player, new Vector3(-4, 1, -4), Quaternion.identity);*/
 
-        Ray myRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hitInfo;
-
-        if(Input.GetMouseButtonDown(0))
-            if (Physics.Raycast(myRay, out hitInfo))
-            {
-                hitInfo.collider.GetComponent<MeshRenderer>().material.color = Color.black;
-            }
-
     }
 
     void newPlayer()
